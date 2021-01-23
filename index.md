@@ -1,6 +1,13 @@
+## Allgemein
+
+Das folgende Projekt soll dabei helfen einen leichten Einstieg in die Hausautomatisierung mit [openHAB](https://www.openhab.org/) zu bekommen.
+
+Die Bereitstellung der hier vorgestellen Teilprojekte wird mit [Docker](https://www.docker.com/) realisiert und versteht sich als eine Schritt für Schritt Anleitung, wobei die [Installion von Docker](https://docs.docker.com/get-docker/) sowie [Grundkenntnisse](https://docs.docker.com/get-started/) vorausgesetzt werden.
+
+
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mischmidt83/open-hab-automation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/mischmidt83/open-hab-automation/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
