@@ -1,0 +1,39 @@
+---
+---
+
+@import 'jekyll-theme-architect';
+
+// customization
+
+header h1 {
+    width: 600px;
+}
+
+header h2 {
+    width: 720px;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) { }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  header h1, header h2 {
+    width: 340px;
+  }
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+  header h1, header h2 {
+    width: 100%;
+  }
+  
+}
+
