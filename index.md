@@ -2,7 +2,24 @@
 
 Das folgende Projekt soll dabei helfen einen leichten Einstieg in die Hausautomatisierung mit [openHAB](https://www.openhab.org/) zu bekommen.
 
-Die Bereitstellung der hier vorgestellen Teilprojekte wird mit [Docker](https://www.docker.com/) realisiert und versteht sich als eine Schritt für Schritt Anleitung, wobei die [Installion von Docker](https://docs.docker.com/get-docker/) sowie [Grundkenntnisse](https://docs.docker.com/get-started/) vorausgesetzt werden.
+Die Bereitstellung der hier vorgestellen Teilprojekte wird mit [Docker](https://www.docker.com/) realisiert und versteht sich als eine Schritt für Schritt Anleitung, wobei die [Installation von Docker](https://docs.docker.com/get-docker/) sowie [Grundkenntnisse](https://docs.docker.com/get-started/) vorausgesetzt werden.
+
+## Basis Setup
+
+Zum Aufsetzen von [openHAB](https://www.openhab.org/) wird das offizielle [Docker Image](https://hub.docker.com/r/openhab/openhab/) verwendet. Die Installation erfolgt über den folgenden Kommandozeilen Aufruf:
+
+```bash
+# start openhab
+docker-compose up -d
+```
+
+Die hierfür bereitgestellte und Kommando verwendete `docker-compose.yml` Datei beinhaltet drei [Volumes](https://docs.docker.com/storage/volumes/) (openhab_addons, openhab_conf, openhab_userdata), die automatisch beim Starten des Docker Containers entstehen. Sie stellen sicher, dass Konfiurationen, die in [openHAB](https://www.openhab.org/) gemacht werden, trotz Hoch- und Runterfahren des Containers, permanent gespeichert werden.
+
+Nach dem Starten steht [openHAB](https://www.openhab.org/) unter http://localhost:8080 zu Verfügung. Da der Startvorgang etwas dauern kann, empfiehlt sich der Blick in die Logs vom Container im [Docker Dashboard](https://docs.docker.com/desktop/dashboard/).
+
+![GitHub Logo](/images/docker-dashboard.png)
+
+Sofern [openHAB](https://www.openhab.org/) dann zur Verfügung steht, kann mit der Basis Konfiguration gestartet werden.
 
 
 ## Welcome to GitHub Pages
