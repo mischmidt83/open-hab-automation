@@ -15,47 +15,38 @@ docker-compose up -d
 
 Die hierfür bereitgestellte und Kommando verwendete `docker-compose.yml` Datei beinhaltet drei [Volumes](https://docs.docker.com/storage/volumes/) (openhab_addons, openhab_conf, openhab_userdata), die automatisch beim Starten des Docker Containers entstehen. Sie stellen sicher, dass Konfiurationen, die in [openHAB](https://www.openhab.org/) gemacht werden, trotz Hoch- und Runterfahren des Containers, permanent gespeichert werden.
 
-Nach dem Starten steht [openHAB](https://www.openhab.org/) unter http://localhost:8080 zu Verfügung. Da der Startvorgang etwas dauern kann, empfiehlt sich der Blick in die Logs vom Container im [Docker Dashboard](https://docs.docker.com/desktop/dashboard/).
+Nach dem Starten steht [openHAB](https://www.openhab.org/) unter http://localhost:8080 zu Verfügung. Da der Startvorgang etwas dauern kann, empfiehlt sich der Blick in die Logs vom Container im [Docker Dashboard](https://docs.docker.com/desktop/dashboard/). Hier kann man auch den [openHAB](https://www.openhab.org/) Container stoppen, neu starten oder löschen (wobei durch die drei beschriebenen Volumes alle Einstellung vorhanden beliebn.)
 
-![GitHub Logo](/images/docker-dashboard.png)
+![Docker Dashboard](/images/docker-dashboard.png)
 
 Sofern [openHAB](https://www.openhab.org/) dann zur Verfügung steht, kann mit der Basis Konfiguration gestartet werden.
 
+### Konfiguration
 
-## Welcome to GitHub Pages
+1. Als Erstes wird Nutzername und Passwort für den Administrations Account festgelegt
 
-You can use the [editor on GitHub](https://github.com/mischmidt83/open-hab-automation/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+![Administrations Account festlegen](/images/open-hab-admin-account.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. Danach folgt die Festlegung von Sprache, Region und Zeitzone
 
-### Markdown
+![Sprache, Region und Zeitzone festlegen](/images/open-hab-region-settings.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3. Als nächstes kann man den Standort festlegen. Dies kann später nachgeholt werden.
 
-```markdown
-Syntax highlighted code block
+![Standort festlegen](/images/open-hab-location-settings.png)
 
-# Header 1
-## Header 2
-### Header 3
+4. Als letzer Schritt folgt die Installation von Add-ons. Auch diese kann jederzeit später nachgeholt werden. 
 
-- Bulleted
-- List
+![Installation Add-ons](/images/open-hab-add-ons.png)
 
-1. Numbered
-2. List
+5. Am Ende der Basis Konfiguration erscheint der "Willkommen Bildschirm"
 
-**Bold** and _Italic_ and `Code` text
+![Willkommen](/images/open-hab-welcome.png)
 
-[Link](url) and ![Image](src)
-```
+Damit ist die Installation abgeschlossen und [openHAB](https://www.openhab.org/) kann wie gewünscht genutzt werden. Dies bildet die Ausgangslage für die folgenden Anwendungsfälle:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Model - Schaffen ein sinnvollen Grundstruktur
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mischmidt83/open-hab-automation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
