@@ -25,23 +25,23 @@ Sofern [openHAB](https://www.openhab.org/) dann zur Verfügung steht, kann mit d
 
 1. Als Erstes wird Nutzername und Passwort für den Administrations Account festgelegt
 
-![Administrations Account festlegen](/images/open-hab-admin-account.png)
+   ![Administrations Account festlegen](/images/open-hab-admin-account.png)
 
 2. Danach folgt die Festlegung von Sprache, Region und Zeitzone
 
-![Sprache, Region und Zeitzone festlegen](/images/open-hab-region-settings.png)
+   ![Sprache, Region und Zeitzone festlegen](/images/open-hab-region-settings.png)
 
 3. Als nächstes kann man den Standort festlegen. Dies kann später nachgeholt werden.
 
-![Standort festlegen](/images/open-hab-location-settings.png)
+   ![Standort festlegen](/images/open-hab-location-settings.png)
 
 4. Als letzer Schritt folgt die Installation von Add-ons. Auch diese kann jederzeit später nachgeholt werden. 
 
-![Installation Add-ons](/images/open-hab-add-ons.png)
+   ![Installation Add-ons](/images/open-hab-add-ons.png)
 
 5. Am Ende der Basis Konfiguration erscheint der "Willkommen Bildschirm"
 
-![Willkommen](/images/open-hab-welcome.png)
+    ![Willkommen](/images/open-hab-welcome.png)
 
 Damit ist die Installation abgeschlossen und [openHAB](https://www.openhab.org/) kann wie gewünscht genutzt werden. Dies bildet die Ausgangslage für die folgenden Anwendungsfälle:
 
