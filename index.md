@@ -45,7 +45,7 @@ Sofern [openHAB](https://www.openhab.org/) dann zur Verfügung steht, kann mit d
 
 Damit ist die Installation abgeschlossen und [openHAB](https://www.openhab.org/) kann wie gewünscht genutzt werden. Dies bildet die Ausgangslage für die folgenden Anwendungsfälle:
 
-* Model - Schaffen ein sinnvollen Grundstruktur
+* [Semantic Model - Schaffen ein sinnvollen Grundstruktur](pages/01-semantic-model.md)
 
 
 
