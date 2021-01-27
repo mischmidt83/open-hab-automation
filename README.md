@@ -1,0 +1,1 @@
+[!INCLUDE [<title>](https://github.com/mischmidt83/open-hab-tutorial/blob/gh-pages/index.md)]
