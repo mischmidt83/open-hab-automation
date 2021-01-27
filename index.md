@@ -15,7 +15,7 @@ docker-compose up -d
 
 Die hierfür bereitgestellte und Kommando verwendete `docker-compose.yml` Datei beinhaltet drei [Volumes](https://docs.docker.com/storage/volumes/) (openhab_addons, openhab_conf, openhab_userdata), die automatisch beim Starten des Docker Containers entstehen. Sie stellen sicher, dass Konfiurationen, die in [openHAB](https://www.openhab.org/) gemacht werden, trotz Hoch- und Runterfahren des Containers, permanent gespeichert werden.
 
-Nach dem Starten steht [openHAB](https://www.openhab.org/) unter http://localhost:8080 zu Verfügung. Da der Startvorgang etwas dauern kann, empfiehlt sich der Blick in die Logs vom Container im [Docker Dashboard](https://docs.docker.com/desktop/dashboard/). Hier kann man auch den [openHAB](https://www.openhab.org/) Container stoppen, neu starten oder löschen (wobei durch die drei beschriebenen Volumes alle Einstellung vorhanden belieben.)
+Nach dem Starten steht [openHAB](https://www.openhab.org/) unter http://localhost:8080 zu Verfügung. Da der Startvorgang etwas dauern kann, empfiehlt sich der Blick in die Logs vom Container im [Docker Dashboard](https://docs.docker.com/desktop/dashboard/). Hier kann man auch den [openHAB](https://www.openhab.org/) Container stoppen, neu starten oder löschen (wobei durch die drei beschriebenen Volumes alle Einstellung vorhanden bleiben würden).
 
 ![Docker Dashboard](/images/docker-dashboard.png)
 
