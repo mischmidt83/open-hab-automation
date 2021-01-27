@@ -1,4 +1,4 @@
-## openHAB Tutorial
+# openHAB Tutorial
 
 Das folgende Projekt soll dabei helfen einen leichten Einstieg in die Hausautomatisierung mit [openHAB](https://www.openhab.org/) zu bekommen.
 
